@@ -9,7 +9,7 @@ import java.util.Objects;
  * @version 1.0
  */
 @Entity
-@Table(name = "КОНВЕРТЕР", schema = *"s242419"*, catalog = "studs")
+@Table(name = "КОНВЕРТЕР", schema = "s242419", catalog = "studs")
 @IdClass(ConverterEntityPK.class)
 public class ConverterEntity {
     /** Идентификатор первого вида транспорта */

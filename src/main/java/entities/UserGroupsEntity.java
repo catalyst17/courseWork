@@ -3,7 +3,7 @@ package entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "ГРУППЫ_ПОЛЬЗОВАТЕЛЕЙ", schema = *"s242419"*, catalog = "studs")
+@Table(name = "ГРУППЫ_ПОЛЬЗОВАТЕЛЕЙ", schema = "s242419", catalog = "studs")
 public class UserGroupsEntity {
     private String email;
     private String group;

@@ -8,7 +8,7 @@ import javax.persistence.*;
  * @version 1.0
  */
 @Entity
-@Table(name = "ЛЬГОТА", schema = *"s242419"*, catalog = "studs")
+@Table(name = "ЛЬГОТА", schema = "s242419", catalog = "studs")
 public class BenefitEntity {
     /** Идентификатор льготы */
     private int id;

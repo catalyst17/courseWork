@@ -10,7 +10,7 @@ import java.sql.Date;
  * @version 1.0
  */
 @Entity
-@Table(name = "ПОЛЬЗОВАТЕЛЬ", schema = *"s242419"*, catalog = "studs")
+@Table(name = "ПОЛЬЗОВАТЕЛЬ", schema = "s242419", catalog = "studs")
 public class UserEntity implements Serializable {
     /** Идентификатор пользователя */
     private int id;

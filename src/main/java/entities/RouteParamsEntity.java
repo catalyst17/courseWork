@@ -8,7 +8,7 @@ import javax.persistence.*;
  * @version 1.0
  */
 @Entity
-@Table(name = "ХАРАКТЕРИСТИКА_МАРШРУТА", schema = *"s242419"*, catalog = "studs")
+@Table(name = "ХАРАКТЕРИСТИКА_МАРШРУТА", schema = "s242419", catalog = "studs")
 public class RouteParamsEntity {
     /** Идентификатор маршрута */
     private int id;

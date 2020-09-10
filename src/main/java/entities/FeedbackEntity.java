@@ -3,7 +3,7 @@ package entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "ОТЗЫВ", schema = *"s242419"*, catalog = "studs")
+@Table(name = "ОТЗЫВ", schema = "s242419", catalog = "studs")
 public class FeedbackEntity {
     private int id;
     private String name;

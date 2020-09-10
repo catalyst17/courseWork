@@ -9,7 +9,7 @@ import java.sql.Time;
  * @version 1.0
  */
 @Entity
-@Table(name = "МАРШРУТ", schema = *"s242419"*, catalog = "studs")
+@Table(name = "МАРШРУТ", schema = "s242419", catalog = "studs")
 public class RouteEntity {
     /** Идентификатор маршрута */
     private int id;

@@ -8,7 +8,7 @@ import javax.persistence.*;
  * @version 1.0
  */
 @Entity
-@Table(name = "КВОТА", schema = *"s242419"*, catalog = "studs")
+@Table(name = "КВОТА", schema = "s242419", catalog = "studs")
 public class QuoteEntity {
     /** Идентификатор квоты */
     private int id;

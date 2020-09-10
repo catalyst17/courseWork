@@ -8,7 +8,7 @@ import javax.persistence.*;
  * @version 1.0
  */
 @Entity
-@Table(name = "ТОПЛИВО", schema = *"s242419"*, catalog = "studs")
+@Table(name = "ТОПЛИВО", schema = "s242419", catalog = "studs")
 public class FuelEntity {
     /** Юзлесс идентификатор */
     private FuelEntityKey id;
